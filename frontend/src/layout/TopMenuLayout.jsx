@@ -11,7 +11,14 @@ import {
 
 const TopMenuLayout = ({ children }) => {
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+        backgroundImage: "image/background.jpg",
+      }}
+    >
       <CssBaseline />
       <AppBar position="static">
         <Toolbar>
@@ -26,14 +33,14 @@ const TopMenuLayout = ({ children }) => {
       <Container component="main" sx={{ flexGrow: 1, p: 3 }}>
         {children}
       </Container>
-      <Box
+      {/* <Box
         component="footer"
         sx={{ p: 2, bgcolor: "background.paper", textAlign: "center" }}
       >
         <Typography variant="body2" color="text.secondary">
           © 2024 MyApp. All rights reserved.
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   );
 };

@@ -2,6 +2,9 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
+    background: {
+      paper: "white",
+    },
     primary: {
       main: "#6C5A72",
     },

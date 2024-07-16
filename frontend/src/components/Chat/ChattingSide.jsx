@@ -17,7 +17,7 @@ import MessageRow from "./MessageRow";
 const ChattingSide = () => {
   return (
     <Stack spacing={2}>
-      <Paper elevation={3}>
+      <Paper elevation={0}>
         <Box display="flex" justifyContent="space-between">
           <Box
             sx={{
@@ -47,7 +47,7 @@ const ChattingSide = () => {
         </Box>
       </Paper>
       <Paper
-        elevation={3}
+        elevation={0}
         sx={{
           padding: 2,
           display: "flex",

@@ -10,7 +10,7 @@ const ArtSide = () => {
           style={{ width: "100%" }}
         />
       </Box>
-      <Paper elevation={3} sx={{ padding: 2 }}>
+      <Paper elevation={0} sx={{ padding: 2 }}>
         <Box mt={2}>
           <Typography variant="h6">그림에 사용된 키워드</Typography>
           <Typography variant="body1">
