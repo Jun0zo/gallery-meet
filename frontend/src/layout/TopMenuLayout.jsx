@@ -16,7 +16,7 @@ const TopMenuLayout = ({ children }) => {
         display: "flex",
         flexDirection: "column",
         minHeight: "100vh",
-        backgroundImage: "image/background.jpg",
+        backgroundImage: "url('image/background.jpeg')",
       }}
     >
       <CssBaseline />
